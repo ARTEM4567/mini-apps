@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0px 20px;
+}
+
+.main_button{
+    border: none;
+    width: 44px;
+    height: 44px;
+    background-image: url(img/burger.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.search{
+    width: 34px;
+    height: 34px;
+    background-image: url(img/search.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    border: solid 2px rgb(158, 158, 158);
+    border-left: none;
+    border-top-right-radius: 5px;
+}
+
+input{
+    border: solid 2px rgb(158, 158, 158);
+    border-right: none;
+    height: 34px;
+    width: 300px;
+    padding-left: 5px;
+    background-color: rgb(238, 238, 238);
+    border-top-left-radius: 5px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.menu{
+    margin-top: 20px;
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 40px;
+    max-width: 300px;
+    background-color: rgb(238, 238, 238);
+}
+
+.allLinks{
+    border: solid 2px rgb(158, 158, 158); 
+    border-top: none;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+.links{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+a{
+    margin: 5px;
+    text-decoration: none;
+    color: rgb(54, 54, 54);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form{
+    display: flex;
+}
+
+.bgcross{
+    background-image: url(img/cross.svg);
+}
+
+.novis{
+    opacity: 0;
+    visibility: hidden;
+}
+
